@@ -15,7 +15,7 @@ jobs:
 
       - name: Download CSV from Dropbox
         run: |
-          curl -L "https://www.dropbox.com/scl/fi/XXXXX/Workouts-2026.csv?rlkey=YYYYY&dl=1" \
+          curl -L "https://www.dropbox.com/scl/fi/u2khdh4pk8mv24xslz79u/Workouts-2026.csv?rlkey=1hm6gcs896e1hdf8458bfpctq&st=ud1lv8nw&dl=1" \
           -o Workouts-2026.csv
 
       - name: Commit if changed
