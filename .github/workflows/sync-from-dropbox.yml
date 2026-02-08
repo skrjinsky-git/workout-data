@@ -1,5 +1,8 @@
 name: Sync workouts from Dropbox
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "*/15 * * * *" # каждые 15 минут
